@@ -1,0 +1,27 @@
+<Group Name="AHT_SVL">
+   <DatasetList>
+      <Dataset Name="AHT" />
+      <Dataset Name="SVL" />
+   </DatasetList>
+   
+   <ColumnList>
+	<Column Dataset="" Name="" Alias="">
+	<Column Dataset="" Name="" Alias="">
+	<Column Dataset="" Name="" Alias="">
+   </ColumnList>
+   
+ 
+ <JoinDefinition>
+   <join left="AHT" right="SVL" type="inner"
+     expr="(accounts.id == accounts_opportunities.account_id)"/>
+   <join left="accounts_opportunities" right="opportunities" type="inner"
+     expr="(accounts_opportunities.opportunity_id == opportunities.id)"/>
+
+   <join left="opportunities" right="users1" type="inner"
+     expr="(opportunities.assigned_user_id == users1.id)"/>
+   <join left="accounts" right="p1cases" type="leftOuter"
+     expr="(accounts.id == p1cases.account_id)"/>
+   <join left="p1cases" right="users2" type="rightOuter"
+     expr="(users2.id == p1cases.assigned_user_id)"/>
+ </JoinDefinition>
+</Group>

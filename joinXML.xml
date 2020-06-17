@@ -1,0 +1,28 @@
+<jdbcTable datasourceId="SugarCRMDataSource" id="JoinTree_1" tableName="accounts">
+   <tableRefList>
+      <tableRef tableId="accounts_opportunities" alias="accounts_opportunities"/>
+      <tableRef tableId="opportunities" alias="opportunities"/>
+      <tableRef tableId="p1cases" alias="p1cases"/>
+      <tableRef tableId="users1" alias="users1"/>
+      <tableRef tableId="users2" alias="users2"/>
+   </tableRefList>
+ <fieldList>
+  <field id="accounts_opportunities.account_id" type="java.lang.String"/>
+  ...
+ </fieldList>
+ <joinInfo alias="accounts" referenceId="accounts"/>
+ <joinList>
+   <join left="accounts" right="accounts_opportunities" type="inner"
+     expr="(accounts.id == accounts_opportunities.account_id)"/>
+   <join left="accounts_opportunities" right="opportunities" type="inner"
+     expr="(accounts_opportunities.opportunity_id == opportunities.id)"/>
+
+   <join left="opportunities" right="users1" type="inner"
+     expr="(opportunities.assigned_user_id == users1.id)"/>
+   <join left="accounts" right="p1cases" type="leftOuter"
+     expr="(accounts.id == p1cases.account_id)"/>
+   <join left="p1cases" right="users2" type="rightOuter"
+     expr="(users2.id == p1cases.assigned_user_id)"/>
+ </joinList>
+ </joinInfo>
+</jdbcTable>
