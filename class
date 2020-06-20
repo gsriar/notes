@@ -1,1 +1,20 @@
 https://github.com/anujdevopslearn/InterviewQuestions/blob/master/InstallationGuides/CleanServices.txt
+Anuj, Could u pl paste all the cmds
+from Arpitajain013 to All Participants:
+got the Nagios XI page, with a access Nagios button
+from Jacob.mani1704 to All Participants:
+https://github.com/anujdevopslearn/InterviewQuestions/blob/master/InstallationGuides/CleanServices.txt
+from Ashwarya.sharma.us to All Participants:
+nagios install
+from Jacob.mani1704 to All Participants:
+commands 14-23
+from Jacob.mani1704 to All Participants:
+curl https://assets.nagios.com/downloads/nagiosxi/install.sh | sh
+from Bhagavankrishna.b to All Participants:
+ok
+from Bhagavankrishna.b to All Participants:
+it is down and trying to connect
+from muditvajpayee to All Participants:
+does nagios use mysql to store the metadata and logs ?
+from Bhagavankrishna.b to All Participants:
+ok
