@@ -1,0 +1,4 @@
+kubectl get svc
+kubectl run kubernetes-nginx --image=nginx --port=80
+kubectl expose deployment/kubernetes-nginx --port=80 --target-port=80 --type=NodePort
+kubectl get svc
