@@ -1,0 +1,660 @@
+from Ashwarya.sharma.us to All Participants:
+you mean we need both
+from Lakshitbhatnagar to All Participants:
+Thanks ANuj 
+from Bkarim60 to All Participants:
+Thanks Anuj
+from Ashwarya.sharma.us to All Participants:
+thanks for the clerification
+from Lakshitbhatnagar to All Participants:
+Anuj , can you please paste github link again .
+from Reshma Umapathy to All Participants:
+https://github.com/anujdevopslearn/InterviewQuestions/blob/master/InstallationGuides/Kubernetes.txt
+from Lakshitbhatnagar to All Participants:
+thanks
+from Anuj Sharma to All Participants:
+kubectl run kubernetes-bootcamp --image=jocatalin/kubernetes-bootcamp:v1 --port=8080
+kubectl run kubernetes-nginx --image=nginx --port=80
+from Anuj Sharma to All Participants:
+docker ps | grep bootcamp
+from Srikarnelly to All Participants:
+do we need to run these commands now?
+from Arindam.mallik to All Participants:
+So, we are not going to run 
+from Arindam.mallik to All Participants:
+
+kubectl run kubernetes-nginx --image=nginx --port=80
+from Arindam.mallik to All Participants:
+ok
+from Reshma Umapathy to All Participants:
+So... we can have many docker images inside a pod, right?
+from vishnu to All Participants:
+can u paste the commands again ..just joined 
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+blank screen is displayed
+from Bhagavankrishna.b to All Participants:
+what is the command on line 25?
+from Srikarnelly to All Participants:
+are there any system specifications for handling Pods?
+from Anuj Sharma to All Participants:
+https://github.com/anujdevopslearn/InterviewQuestions/blob/master/InstallationGuides/Kubernetes.txt
+from vishnu to All Participants:
+okay ..thanks 21-23 
+from Harshu_l to All Participants:
+Can you explain the concept of taint nodes if u have time
+from Somyashree Padhi to All Participants:
+anuj can you explain again what is namesapces
+from Bhagavankrishna.b to All Participants:
+in prod environment, we will never have master and worker in the same right?
+from Somyashree Padhi to All Participants:
+does this equivalent to stages ?
+from Somyashree Padhi to All Participants:
+got it
+from Bhagavankrishna.b to All Participants:
+so, if I want to group my pods, I can use namespace?
+from Bkarim60 to All Participants:
+Anuj , got the following error
+from Bkarim60 to All Participants:
+0/1 nodes are available: 1 node(s) had taints that the pod didn't tolerate.
+from Bkarim60 to All Participants:
+pods are still not ready
+from Bkarim60 to All Participants:
+evn after 6 minutes
+from Bkarim60 to All Participants:
+*even
+from Bkarim60 to All Participants:
+used
+from Bkarim60 to All Participants:
+>kubectl run kubernetes-bootcamp --image=jocatalin/kubernetes-bootcamp:v1 --port=8080
+from Bkarim60 to All Participants:
+apologies
+from Bkarim60 to All Participants:
+I didn't
+from Bkarim60 to All Participants:
+thanks
+from Bkarim60 to All Participants:
+let me try that now
+from Anuj Sharma to All Participants:
+kubectl describe pod kubernetes-bootcamp-76fcb8587-r8bjc
+from Anuj Sharma to All Participants:
+curl 10.32.0.4:8080
+from Maramreddy.k to All Participants:
+ip add is same
+from Arindam.mallik to All Participants:
+yes
+from Maramreddy.k to All Participants:
+since its lab i guess
+from Somyashree Padhi to All Participants:
+even for nagios it was same
+from Maramreddy.k to All Participants:
+yes
+from Srk.guess to All Participants:
+yes
+from Harshu_l to All Participants:
+I am getting  error "curl: (7) Failed to connect to 10.0.1.4 port 8080: Connection refused
+
+from Harshu_l to All Participants:
+ifconfig
+from Maramreddy.k to All Participants:
+i guess our labs are Azure clone machines hence the same ip.. 
+from Swathi Balasubramanian to All Participants:
+check the ip
+from Swathi Balasubramanian to All Participants:
+10.32.0.4
+from Dinesh.unna to All Participants:
+in middle middle voice is breaking
+from Swathi Balasubramanian to All Participants:
+yes
+from Bhagavankrishna.b to All Participants:
+done
+from Arindam.mallik to All Participants:
+sure
+from Shilpipauranik to All Participants:
+yes
+from Srk.guess to All Participants:
+yes
+from Dinesh.unna to All Participants:
+done
+from Reshma Umapathy to All Participants:
+yes
+from Nirajpatilpune to All Participants:
+yes
+from Somyashree Padhi to All Participants:
+yes
+from Ashwarya.sharma.us to All Participants:
+yes
+from Rajesh M to All Participants:
+yes
+from Harshu_l to All Participants:
+Can u explain the differencce between ip 10.0.1.4 (interface ip) and 10.32.0.4 (ip address assigned to pod) 
+from Anuj Sharma to All Participants:
+kubectl exec -it kubernetes-bootcamp-76fcb8587-r8bjc bash
+from Harshu_l to All Participants:
+ok got it thanks 
+from Dinesh.unna to All Participants:
+after exit command it showing me   you have new mail in /var/mail/root
+
+from Swathi Balasubramanian to All Participants:
+done
+from Dinesh.unna to All Participants:
+done
+from Reshma Umapathy to All Participants:
+done
+from Goalhits to All Participants:
+done
+from Bhagavankrishna.b to All Participants:
+done
+from Dinesh.unna to All Participants:
+ok
+from Bhagavankrishna.b to All Participants:
+can we specify nodeport also?
+from Goalhits to All Participants:
+you are specifiying target port but still it is being allocated to 30167 port
+from Bhagavankrishna.b to All Participants:
+targetport is pod port
+from vishnu to All Participants:
+we can't specify the same 8080 port for two differenr servies right
+from Nitesh.vit2011 to All Participants:
+how do we access with this port from outside, if it is dynamic
+from Goalhits to All Participants:
+in that case what is signifacnt for port and target port in expose command
+from vishnu to All Participants:
+if you dont mind please explain the port concept with in kubernets again 
+from vishnu to All Participants:
+but we access with 8080 only right
+from Nitesh.vit2011 to All Participants:
+m not getting this port concept 
+from Nitesh.vit2011 to All Participants:
+how do we access from outside
+from Nitesh.vit2011 to All Participants:
+if it is allocated at random basis
+from Nitesh.vit2011 to All Participants:
+everytime
+from Reshma Umapathy to All Participants:
+So this random port is used to access the application running on the pod?
+from Srikarnelly to All Participants:
+your screen is paused?
+from Arindam.mallik to All Participants:
+can you plz paste this here
+from Anuj Sharma to All Participants:
+kubectl get svc
+kubectl run kubernetes-nginx --image=nginx --port=80
+kubectl expose deployment/kubernetes-nginx --port=80 --target-port=80 --type=NodePort
+kubectl get svc
+
+from Swathi Balasubramanian to All Participants:
+done.
+from Reshma Umapathy to All Participants:
+I mistakenly gave port as 8080 for nginx
+from Reshma Umapathy to All Participants:
+What should i do now?
+from Reshma Umapathy to All Participants:
+kubectl expose
+from Shilpipauranik to All Participants:
+done
+from Harshu_l to All Participants:
+The ip 10.99.123.213 is a public ip
+from Anuj Sharma to All Participants:
+kubectl delete svc kubernetes-nginx
+from Reshma Umapathy to All Participants:
+Thanks Anuj
+from Harshu_l to All Participants:
+ok 
+from Dinesh.unna to All Participants:
+ok
+from Maramreddy.k to All Participants:
+The Service "kubernetes-nginx" is invalid: spec.type: Unsupported value: "NodePortkubectl": supported values: "ClusterIP", "ExternalName", "LoadBalancer", "NodePort"
+
+from Maramreddy.k to All Participants:
+when i execute expose
+from Maramreddy.k to All Participants:
+sorted Thanks 
+from Anuj Sharma to All Participants:
+kubectl get pods
+kubectl scale deployments/kubernetes-bootcamp --replicas=2
+kubectl get pods
+kubectl get deployments
+curl localhost:30167
+
+from Goalhits to All Participants:
+so if different hosts are there in that case port would be different or in that case also port would be same?
+from Harshu_l to All Participants:
+But kubectl get svc showing different ports
+from Goalhits to All Participants:
+ok
+from Nitesh.vit2011 to All Participants:
+at the time of deployment only these port will change based on availabilty   right ??
+from Nitesh.vit2011 to All Participants:
+ok
+from Goalhits to All Participants:
+can we expose in multiple host machines using master at one time?
+from Harshu_l to All Participants:
+Can u paste the curl command u used 
+from Goalhits to All Participants:
+ok
+from Harshu_l to All Participants:
+with respect to pods
+from Nitesh.vit2011 to All Participants:
+curl localhost:30126
+from Jacob.mani1704 to All Participants:
+docker run kubernetes-nginx --image=nginx --port=80
+I get an error"Unable to find image "'kubernetes-nginx:latest' locally
+from Jacob.mani1704 to All Participants:
+ok got it
+from Goalhits to All Participants:
+So for each deploymnt we would create new image?
+from Anuj Sharma to All Participants:
+kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
+kubectl get pods
+kubectl rollout status deployments/kubernetes-bootcamp
+curl localhost:30167
+kubectl rollout undo deployments/kubernetes-bootcamp
+curl localhost:30167
+
+from Shubham Mathur to All Participants:
+Replacing the image from v1 from v2 will cause any loss of data
+from Swathi Balasubramanian to All Participants:
+so we can rollback only last one or is there a way to rollback a specific one
+from Bhagavankrishna.b to All Participants:
+is there anything in kubernetes, like auditing like who made changes to the cluster?
+from Swathi Balasubramanian to All Participants:
+also can we get a deployment log
+from Goalhits to All Participants:
+so this version we can integrate to jenkins for each deployment?
+from Srikarnelly to All Participants:
+my v1 pod is not getting terminated
+from Nitesh.vit2011 to All Participants:
+after enter kubectl get pods   version is not updating to V2 ??
+from Nitesh.vit2011 to All Participants:
+ok
+from Goalhits to All Participants:
+in case of any error where we check logs?
+from Srikarnelly to All Participants:
+how to delete a replica pod
+from Goalhits to All Participants:
+ok
+from Goalhits to All Participants:
+how to autoscale based on traffic increase using kubernetes?
+from Bhagavankrishna.b to All Participants:
+kubectl delete pod pod_name
+from Bhagavankrishna.b to All Participants:
+it will recreated
+from Goalhits to All Participants:
+So basically we need to run kubectl scale command however how this command would  be invoked automatically in case of auto scale
+from Goalhits to All Participants:
+?
+from Anuj Sharma to All Participants:
+kubectl scale deployments/kubernetes-bootcamp --replicas=0
+
+from Goalhits to All Participants:
+ok\
+from Goalhits to All Participants:
+so can jenkins be integrated with monitoring tools like nagios?
+from Goalhits to All Participants:
+to achieve auto scaling
+from Goalhits to All Participants:
+hmmn ok
+from Dinesh.unna to All Participants:
+please paste that commands
+from Srikarnelly to All Participants:
+when i am running this command "kubectl taint nodes --all node-role.kubernetes.io/master- "  I am facing this error "error: taint "node-role.kubernetes.io/master:" not found.. can somebody help
+from Bhagavankrishna.b to All Participants:
+@Srikar, are you able to deploy a pod?
+from Bhagavankrishna.b to All Participants:
+ok, can you run this command and tell what is the result?
+from Bhagavankrishna.b to All Participants:
+kubectl get deployments
+from Srikarnelly to All Participants:
+both boot camp and nginx are available
+from Dinesh.unna to All Participants:
+any one do the sample test?
+from Rajesh M to All Participants:
+yes
+from Dinesh.unna to All Participants:
+yes
+from Arpitajain013 to All Participants:
+yes
+from Bkarim60 to All Participants:
+yes
+from Srk.guess to All Participants:
+yes
+from Kanupriyarchourey to All Participants:
+yes
+from Swathi Balasubramanian to All Participants:
+yes
+from Jacob.mani1704 to All Participants:
+yes
+from Nitesh.vit2011 to All Participants:
+yes
+from Srikarnelly to All Participants:
+kubectl taint nodes --all node-role.kubernetes.io/master-  
+from Srikarnelly to All Participants:
+i am getting error when i am trying to execute
+from Kanupriyarchourey to All Participants:
+can project and test would be completed within 10-15 days after revision 
+from Kanupriyarchourey to All Participants:
+?
+from Shubham Mathur to All Participants:
+Does changing the image from v1 to v2 will cause any loss of data?
+from Dinesh.unna to All Participants:
+ok sir
+from vishnu to All Participants:
+image wont have any data 
+from vishnu to All Participants:
+image is your war file or jar file ..i mean its all the application code 
+from Dinesh.unna to All Participants:
+ok sir
+from Srikarnelly to All Participants:
+difference between kubelet and kubeadm?
+from Bhagavankrishna.b to All Participants:
+you can use persistent volume
+from Goalhits to All Participants:
+actually you can have stage wise deployment to avoid data loss
+from Reshma Umapathy to All Participants:
+Do we have any GUI for K8s?
+from Dinesh.unna to All Participants:
+thses dlete commands paste we will try home
+from Anuj Sharma to All Participants:
+https://github.com/anujdevopslearn/InterviewQuestions/tree/master/Demos
+from Somyashree Padhi to All Participants:
+should we start after downloading the document ?
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+what documents we have to download
+from Harshu_l to All Participants:
+Anuj we have to just do the steps in the  document 
+from Harshu_l to All Participants:
+Do we have to cleanup the existing stuff
+from Anuj Sharma to All Participants:
+kubeadm reset
+from Kanupriyarchourey to All Participants:
+okay ..all 4 documents we need to follow right 
+from Kanupriyarchourey to All Participants:
+?
+from Rajesh M to All Participants:
+my jenkins not working
+from Rajesh M to All Participants:
+y
+from Nitesh.vit2011 to All Participants:
+2nd cmd for reset ?
+from Kanupriyarchourey to All Participants:
+ahh ..okay . Thanks 
+from Nitesh.vit2011 to All Participants:
+or its only one cmd
+from Nitesh.vit2011 to All Participants:
+okay
+from vishnu to All Participants:
+okay 
+from Dinesh.unna to All Participants:
+kubeadm reset after that we run all this comman sir
+from vishnu to All Participants:
+yes
+from vishnu to All Participants:
+proceed Dinesh
+from Dinesh.unna to All Participants:
+okk
+from Srk.guess to All Participants:
+yes
+from Goalhits to All Participants:
+do we have to take screen shot of every step?
+from Goalhits to All Participants:
+so all screen shot we can put in a word doument
+from vidhu108@gmail.com to All Participants:
+joined back after powercut.. Can someone say where are we?
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+what do we have upload in write-ups?
+from Dinesh.unna to All Participants:
+sudo: apt‐get: command not found
+ 1st command show me error
+from vishnu to All Participants:
+u have to be root user 
+from vishnu to All Participants:
+first do the "sudo su -"
+from Dinesh.unna to All Participants:
+haa
+from Srk.guess to All Participants:
+ROOT
+from vidhu108@gmail.com to All Participants:
+joined back after powercut.. Can someone say where are we?
+from Dinesh.unna to All Participants:
+sudo su -
+
+from Dinesh.unna to All Participants:
+sudo apt‐get update
+
+from Dinesh.unna to All Participants:
+then also error showing me
+from Dinesh.unna to All Participants:
+exit
+from Arun D to All Participants:
+@vidhu, sir has given the project steps to complete.. Please check the chat for the url and proceed with the same.. 
+from Dinesh.unna to All Participants:
+please tell me
+from vidhu108@gmail.com to All Participants:
+Thanks Arun.. 
+from vishnu to All Participants:
+Dinesh ...still getting issue ?
+from Arun D to All Participants:
+@Dinesh should be a problem with space in the command.. Kindly check the command please
+from Arun D to All Participants:
+I didnt face any error so far
+from Somyashree Padhi to All Participants:
+I faced with : curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+from Somyashree Padhi to All Participants:
+so delete the - and manually enter through keyboard
+from Somyashree Padhi to All Participants:
+it works
+from Bhagavankrishna.b to All Participants:
+@somya, issue may be with the last - symbol
+from Somyashree Padhi to All Participants:
+yes
+from Reshma Umapathy to All Participants:
+But it worked for me.. with -
+from Srk.guess to All Participants:
+npm install -g @angular/cli
+from Somyashree Padhi to All Participants:
+if works ignore .. its for those if they face similar issue :) .. 
+from Srk.guess to All Participants:
+anyone done with this command. 
+from Srk.guess to All Participants:
+npm install -g @angular/cli
+from Somyashree Padhi to All Participants:
+CLi in progress for me
+from Bkarim60 to All Participants:
+I went with CSS
+from Srk.guess to All Participants:
+did you type y/N 
+from Bhagavankrishna.b to All Participants:
+read it carefully, it might wait for your inputs
+from Somyashree Padhi to All Participants:
+Now it askedme
+from Bkarim60 to All Participants:
+for routing Y
+from Arun D to All Participants:
+I also went with CSS
+from Srk.guess to All Participants:
+y
+from Srk.guess to All Participants:
+ok
+from vishnu to All Participants:
+for routing you can give "N" for time beging 
+from Bkarim60 to All Participants:
+I chose Y 
+from Bkarim60 to All Participants:
+too late I guess
+from Somyashree Padhi to All Participants:
+so for both N 
+from Arun D to All Participants:
+First set of commands done.. Going into the Dockerfile
+from Chandra Mamidala to All Participants:
+sudo: bash-: command not found, anyone help?
+from Chandra Mamidala to All Participants:
+on second cmd
+from Dinesh.unna to All Participants:
+last sarayday
+from Somyashree Padhi to All Participants:
+bash - : delete andmanually enter -
+from Dinesh.unna to All Participants:
+yes sir
+from Arun D to All Participants:
+@Chandra please try Somya's comment
+from Dinesh.unna to All Participants:
+after break is not rescordedd
+from Dinesh.unna to All Participants:
+ok sir
+from Goalhits to All Participants:
+yes we need recordings
+from Goalhits to All Participants:
+asap
+from Goalhits to All Participants:
+whether this batch or previous batch
+from Chandra Mamidala to All Participants:
+@Arun, thanks. Observed that a hyphen is followed by a blank space
+from Bhagavankrishna.b to All Participants:
+can that be uploaded directly? so that all of us need not create tickets?
+from Dinesh.unna to All Participants:
+every commandds we seceen short 
+from Arun D to All Participants:
+@Chandra.. Good.. Please proceed
+from Dinesh.unna to All Participants:
+voice breaking
+from Bhagavankrishna.b to All Participants:
+thanks
+from Kanupriyarchourey to All Participants:
+Hi Anyone , can you please ping the link given by anuj 
+from Kanupriyarchourey to All Participants:
+i have logout due to network issue so previous chat gone 
+from Reshma Umapathy to All Participants:
+https://github.com/anujdevopslearn/InterviewQuestions/tree/master/Demos
+from Kanupriyarchourey to All Participants:
+thanks 
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+Anyone, 
+css stylesheet format need to be selected?
+from Srk.guess to All Participants:
+yes
+from Bkarim60 to All Participants:
+everyone
+from Bkarim60 to All Participants:
+"docker build Dockerfile -t 'image_name'"
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+thanks
+from Bhagavankrishna.b to All Participants:
+tests are not mandatory?
+from Bkarim60 to All Participants:
+you need the above format I think
+from Goalhits to All Participants:
+so any one project would be suffice for certification to be unlocked
+from Goalhits to All Participants:
+?
+from Bkarim60 to All Participants:
+in the word doc, the command is incomplete
+from Bhagavankrishna.b to All Participants:
+I see there are 3 tests with this course
+from Bkarim60 to All Participants:
+and you may get an error
+from Srk.guess to All Participants:
+yes
+from Reshma Umapathy to All Participants:
+But the number of classes attended are not getting updated in my profile
+from Bkarim60 to All Participants:
+"Build and tag the docker image. 
+docker build -t myangularapp .
+"
+from Maramreddy.k to All Participants:
+docker build -t myangularapp 
+from Srikarnelly to All Participants:
+after creating docker file what we need to do?
+from Maramreddy.k to All Participants:
+No protocol specified
+from Maramreddy.k to All Participants:
+when i have created Dockerfile and saved it i got this error "No protocol specified"
+from Dinesh.unna to All Participants:
+sir every commnds we screen shot
+from Bhagavankrishna.b to All Participants:
+@Maram, I ignored it, not sure if it is correct
+from Somyashree Padhi to All Participants:
+after adding vi dockerfile and adding command .. how to exit ?
+from Kanupriyarchourey to All Participants:
+is project  need to complete today itself ?
+from Maramreddy.k to All Participants:
+:wq!
+from Srk.guess to All Participants:
+it's better to complete today
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+what about test in test in assessment??
+from Swathi Balasubramanian to All Participants:
+i am getting error in docker build command
+from Swathi Balasubramanian to All Participants:
+can some one help
+from Bhagavankrishna.b to All Participants:
+@swati, what error?
+from Swathi Balasubramanian to All Participants:
+it says docker build requires ecxactly 1 argument
+from Swathi Balasubramanian to All Participants:
+i tried some combos but didnt work
+from Arun D to All Participants:
+Yeah same error for me as well as Swathi's
+from Bhagavankrishna.b to All Participants:
+there is a symbol "." at the end
+from Bhagavankrishna.b to All Participants:
+did you omit that?
+from Arun D to All Participants:
+Yes
+from Kanupriyarchourey to All Participants:
+i am unable to open the Lab link as below 
+from Swathi Balasubramanian to All Participants:
+yes
+from Kanupriyarchourey to All Participants:
+https://kanupriyarchour.centralus.cloudapp.azure.com:42001/guacamole/?username=guacadmin&password=guacadmin
+
+from Arun D to All Participants:
+Need that full stop as well?
+from Kanupriyarchourey to All Participants:
+was able to open earlier
+from Swathi Balasubramanian to All Participants:
+oh it works with that full stop
+from Bkarim60 to All Participants:
+yes
+from Swathi Balasubramanian to All Participants:
+i thought it was a word thing .. silly me
+from Bkarim60 to All Participants:
+'.'
+from Bkarim60 to All Participants:
+is needed
+from Swathi Balasubramanian to All Participants:
+thanks a lot
+from Arun D to All Participants:
+Oh yeah it works
+from Arun D to All Participants:
+Thanks guys
+from Bkarim60 to All Participants:
+>docker build -t myangularapp .
+
+from Arun D to All Participants:
+Thanks @BKarim buddy
+from vidhu108@gmail.com to All Participants:
+Karim.. Is completing all test in assessment section is also mandatory to unlock certificate?
+from Arun D to All Participants:
+@Kanupriya please close and try starting the VM instance
+from Arun D to All Participants:
+Could be session out
+from Bhagavankrishna.b to All Participants:
+completed successfully
+from Arindam.mallik to All Participants:
+vi Dockerfile
+No protocol specified
+
+from Somyashree Padhi to All Participants:
+wq! : not an editor command - I am getting this error
+from Bhagavankrishna.b to All Participants:
+@Arindam, you can ignore that error
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+nothing is shown to me in dockerfile... what should I do?
+from Bhagavankrishna.b to All Participants:
+Use Esc and then wq!
+from Bhagavankrishna.b to All Participants:
+@Sowmya
+from Arun D to All Participants:
+@Sweta.Gupta.. Paste the content and save inside the docker file
+from Bhagavankrishna.b to All Participants:
+Use Esc and wq!
