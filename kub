@@ -11,3 +11,7 @@ curl localhost:30167
 
 --delete
 kubectl delete svc kubernetes-nginx
+
+https://github.com/anujdevopslearn/InterviewQuestions/tree/master/Demos
+
+kubeadm reset
