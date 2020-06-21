@@ -9,3 +9,5 @@ kubectl get pods
 kubectl get deployments
 curl localhost:30167
 
+--delete
+kubectl delete svc kubernetes-nginx
