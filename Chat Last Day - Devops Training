@@ -658,3 +658,760 @@ from Arun D to All Participants:
 @Sweta.Gupta.. Paste the content and save inside the docker file
 from Bhagavankrishna.b to All Participants:
 Use Esc and wq!
+from Somyashree Padhi to All Participants:
+did that @Krishna
+from Kanupriyarchourey to All Participants:
+now able to login 
+from Kanupriyarchourey to All Participants:
+thanks
+from Somyashree Padhi to All Participants:
+worked
+from Arun D to All Participants:
+@Kanupriya.. Good
+from Somyashree Padhi to All Participants:
+:)
+from Somyashree Padhi to All Participants:
+Thansk Krishna :)
+from Bhagavankrishna.b to All Participants:
+np
+from Arindam.mallik to All Participants:
+getting below message
+from Arindam.mallik to All Participants:
+/myAng-app# docker build -t myangularapp
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+Usage:  docker build [OPTIONS] PATH | URL | -
+Build an image from a Dockerfile
+
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+Thanks @AD got it
+from Arun D to All Participants:
+@Sweta.Gupta..Alright
+from Bhagavankrishna.b to All Participants:
+@Arindam, "." symbol at the end
+from Arindam.mallik to All Participants:
+what is the change we need to do in docker build -t myangularapp?
+from Bhagavankrishna.b to All Participants:
+please copy the statement properly
+from Arun D to All Participants:
+@Arindam
+from Arun D to All Participants:
+docker build -t myangularapp .
+from Swathi Balasubramanian to All Participants:
+the . at the end is important
+from Arun D to All Participants:
+That full stop is mandatory.. Use the command that I posted
+from Somyashree Padhi to All Participants:
+Error response from daemon: Dockerfile parse error line 1: unknown instruction: SE
+
+from Bkarim60 to All Participants:
+@Arun - nws
+from Swathi Balasubramanian to All Participants:
+see first line do yo have # base?
+from Somyashree Padhi to All Participants:
+This error we are getting but doe not makesense tome
+from Somyashree Padhi to All Participants:
+yes i hv #base @swati
+from Bhagavankrishna.b to All Participants:
+@Sowmya, when you copy the content, you missed few characters
+from Bkarim60 to All Participants:
+@Vidhu - I guess  that questin regarding assesments is not for me
+from Arun D to All Participants:
+@BKarim couldnt get you?
+from Bkarim60 to All Participants:
+:)
+from muditvajpayee to All Participants:
+Hi Anuj
+from Bkarim60 to All Participants:
+I was saying 'no worries'
+from Arun D to All Participants:
+Haha alright
+from muditvajpayee to All Participants:
+I just joined due to some unavoidable reasons
+from vishnu to All Participants:
+Hi Mudit 
+from muditvajpayee to All Participants:
+can you please tell me which module is going on
+from Arun D to All Participants:
+@Mudit no problems please refer the chat window and do the project
+from muditvajpayee to All Participants:
+Kubernetes ? or cloud ?
+from vishnu to All Participants:
+Kubernates done 
+from Arun D to All Participants:
+Sir has posted an URL
+from vishnu to All Participants:
+and now project work is going on 
+from Srk.guess to All Participants:
+https://github.com/anujdevopslearn/InterviewQuestions/blob/master/Demos/Dockerize%20Angular%20App%20-%20Solution.docx
+from muditvajpayee to All Participants:
+ok sure
+from vidhu108@gmail.com to All Participants:
+@Karim am sorry!! 
+from muditvajpayee to All Participants:
+thanks guys
+from Srk.guess to All Participants:
+@Mudit : project is going on
+from Arpitajain013 to All Participants:
+arpitajain013gm@arpitajain013gm:~/myAng-app$ docker run -d -p 4200:4200 myangularapp
+Unable to find image 'myangularapp:latest' locally
+docker: Error response from daemon: pull access denied for myangularapp, repository does not exist or may require 'docker login'.
+See 'docker run --help'
+from Arpitajain013 to All Participants:
+Guys anyone getting this error
+from Srk.guess to All Participants:
+Please take screen-shot for every step
+from Bkarim60 to All Participants:
+I made a mistake of exiting 'ctrl-c' as soon as I came across 'red' warnings in step 6/9 when building the image
+from Reshma Umapathy to All Participants:
+exit and run that command 
+from Bkarim60 to All Participants:
+rebuidling again
+from muditvajpayee to All Participants:
+commands screenshot ?
+from muditvajpayee to All Participants:
+which sceeen please
+from Somyashree Padhi to All Participants:
+@Swati and @Krishna yes my #base was missing .. thanksguys
+from Srk.guess to All Participants:
+download from the link provided above
+from Arpitajain013 to All Participants:
+yes i did exit and then ran that command
+from vishnu to All Participants:
+there are multiple sections right ..now we have only prepareing the screen shot with each step .
+from vishnu to All Participants:
+i mean we r preparing only one document 
+from muditvajpayee to All Participants:
+okay
+from Rajesh M to All Participants:
+Hi, We need to finish this " Dockerize Angular App - Solution.docx " only right ?
+from vishnu to All Participants:
+yes
+from Srk.guess to All Participants:
+yes
+from muditvajpayee to All Participants:
+Project 2 ?
+from vishnu to All Participants:
+if you are done you can take the another one as well 
+from Bkarim60 to All Participants:
+yes project 2
+from Bkarim60 to All Participants:
+Angular
+from muditvajpayee to All Participants:
+ok
+from Srk.guess to All Participants:
+take all screen-shots and sent it 
+from muditvajpayee to All Participants:
+which mail id needs to send
+from Kanupriyarchourey to All Participants:
+if we send after 01:00 is that fine 
+from Kanupriyarchourey to All Participants:
+?
+from Bkarim60 to All Participants:
+https://github.com/anujdevopslearn/InterviewQuestions/blob/master/Demos/Dockerize%20Angular%20App%20-%20Solution.docx
+from Ganapathy Sankar S to All Participants:
+this  - http://localhost:4200 - page cannopt be dispalyed. anyone facing this error
+from Srk.guess to All Participants:
+should be fine. but nobody will be there to help you incase of issues
+from muditvajpayee to All Participants:
+wow solution is already there..thanks for sharing
+from Reema.dsouza to All Participants:
+we need to put our vm address insteas of localhost in that link
+from Ganapathy Sankar S to All Participants:
+thanks Reema
+from Swathi Balasubramanian to All Participants:
+welcome @somyashree
+from Bkarim60 to All Participants:
+fix teh domain name
+from Bkarim60 to All Participants:
+that could be the issue
+from Bkarim60 to All Participants:
+i.e 'localhost'
+from Dinesh.unna to All Participants:
+after type ng new myAng‐app editor file came
+from Kanupriyarchourey to All Participants:
+is someone from simplilearn ?
+from Maramreddy.k to All Participants:
+i am not able to see the page with localhost 
+from Arindam.mallik to All Participants:
+docker build -t myangularapp .  - taking long time for me
+from muditvajpayee to All Participants:
+Hi Anuj
+from Arpitajain013 to All Participants:
+for me too Arindam
+from muditvajpayee to All Participants:
+which CLI to be used for coding ?
+from Dinesh.unna to All Participants:
+please tell me
+from muditvajpayee to All Participants:
+Angular JS in Ubuntu
+from Srk.guess to All Participants:
+yes ... same for me. just completed now
+from Srikarnelly to All Participants:
+do we need to come out of myAng-app?
+from Dinesh.unna to All Participants:
+:wq
+from Bkarim60 to All Participants:
+no don't think so
+from Reema.dsouza to All Participants:
+exit
+from Bkarim60 to All Participants:
+it is a folder I think
+from Dinesh.unna to All Participants:
+i type
+from Srk.guess to All Participants:
+that is vi editor
+from Srk.guess to All Participants:
+i think exit
+from Srikarnelly to All Participants:
+they said to exit right?
+from Somyashree Padhi to All Participants:
+@Swati how can I delete my dockerfile.. it is still taking the old content
+from Dinesh.unna to All Participants:
+what i write :q
+from Arpitajain013 to All Participants:
+i think exit
+from muditvajpayee to All Participants:
+how to submit the project
+from muditvajpayee to All Participants:
+on Github ?
+from vishnu to All Participants:
+what about the exam ..whats the cretiria for that ?
+from Shubham Mathur to All Participants:
+ok so 1 project and 80% of live classess for certificate completion
+from muditvajpayee to All Participants:
+by when the recording of this session be available ?
+from Arindam.mallik to All Participants:
+still in "Step 7/9 : RUN npm install -g @angular/cli@1.7.1"
+from Arindam.mallik to All Participants:
+taking time for me
+from Rajesh M to All Participants:
+Hi Sir, we need to submit the word document only right ?
+from Arpitajain013 to All Participants:
+Arindam, wait for sometime,, mine got executeed right now to 9/9
+from Kanupriyarchourey to All Participants:
+yes
+from Arindam.mallik to All Participants:
+ok
+from muditvajpayee to All Participants:
+no screenshots in that document
+from muditvajpayee to All Participants:
+only commands are there
+from Arun D to All Participants:
+@Mudit follow the commands
+from Arun D to All Participants:
+and take the screeshots
+from Bkarim60 to All Participants:
+I managed to get it up and running on localhost:4020
+from Arpitajain013 to All Participants:
+Mudit, u need to run thecommands from the doc and take screenshots yourself
+from muditvajpayee to All Participants:
+ohk
+from Swathi Balasubramanian to All Participants:
+was able to compelte and submit
+from Rajesh M to All Participants:
+Hi sir
+from Bkarim60 to All Participants:
+not sure whether we need external access
+from Arun D to All Participants:
+Project completed successfully
+from Arun D to All Participants:
+Thanks guys
+from muditvajpayee to All Participants:
+there are four options to upload
+from Rajesh M to All Participants:
+we need to upload screen shot as sprate ?
+from muditvajpayee to All Participants:
+which one to select
+from Swathi Balasubramanian to All Participants:
+thanks for the help Anuj and my fellow participants
+from muditvajpayee to All Participants:
+Writeup , Screenshots , Source Code ?
+from Somyashree Padhi to All Participants:
+all same dco mudit
+from Somyashree Padhi to All Participants:
+doc
+from muditvajpayee to All Participants:
+ok
+from Arun D to All Participants:
+Prepare a document and submit the same in all four sections
+from Arun D to All Participants:
+@Mudit
+from muditvajpayee to All Participants:
+ok thanks let me
+from Bhagavankrishna.b to All Participants:
+@Anuj, I have submitted my project
+from Dinesh.unna to All Participants:
+how to close myang app, i m trying the q command 
+from Dinesh.unna to All Participants:
+its not working
+from Chandra Mamidala to All Participants:
+Hello Host and Panel, I think i missed very imp thing as I joined 10 mins late. I am doing this angular project, and we must capture the screenshots of what we are doing into a document and upload it into LMS, have i understood the end goal corect? Where in LMS?
+from Reema.dsouza to All Participants:
+submitted proj @anuj
+from muditvajpayee to All Participants:
+yes
+from muditvajpayee to All Participants:
+under assessment tab
+from Arpitajain013 to All Participants:
+Dinesh, it must automatically complete and exit: like this:Step 9/9 : CMD ng serve --host 0.0.0.0
+ ---> Running in 42eac637076d
+Removing intermediate container 42eac637076d
+ ---> 96b2813d47ad
+Successfully built 96b2813d47ad
+Successfully tagged myangularapp:latest
+
+from Somyashree Padhi to All Participants:
+@chandra click on the assignment .. then submit
+from Bhagavankrishna.b to All Participants:
+@Chandra, you can go to the same course and there is a tab for assessment, you choose the angular project and upload the document
+from muditvajpayee to All Participants:
+goto Project 2
+from Srikarnelly to All Participants:
+what to do after running docker images?
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+what to upload in source code
+from muditvajpayee to All Participants:
+and there upload the document 
+from Arun D to All Participants:
+@Anuj Sir.. Thanks for the clear step by step commands.. It was done
+from Srk.guess to All Participants:
+http://localhost:4200 for this we have to use our vm
+from Bhagavankrishna.b to All Participants:
+@Sri, you need open a browser inside your vm and localhost:4200
+from Harshu_l to All Participants:
+project completed 
+from Arpitajain013 to All Participants:
+Mudit, same document with Screenshots to be uploaded in all the fields
+from Srikarnelly to All Participants:
+it's done buddy, and how to check whether container is running or not?
+from Maramreddy.k to All Participants:
+@Bhagwan -- i m stuck at last step
+from Maramreddy.k to All Participants:
+may u plz help ?
+from Arun D to All Participants:
+@Maram what is the problem
+from Bhagavankrishna.b to All Participants:
+@Maram, sure tell me
+from Arindam.mallik to All Participants:
+loading below takes time for me
+from Arindam.mallik to All Participants:
+http://arindammallikgm.centralus.cloudapp.azure.com:4200/
+from Maramreddy.k to All Participants:
+its not loading for me 
+from Bhagavankrishna.b to All Participants:
+no, just open a browser in your VM
+from Bhagavankrishna.b to All Participants:
+not outside
+from Arun D to All Participants:
+Yes just open the browser in your VM and type the localhost command
+from Arun D to All Participants:
+localhost URL
+from Bhagavankrishna.b to All Participants:
+just next to the command line icon in  your VM at the bottom
+from Bhagavankrishna.b to All Participants:
+globe symbol
+from Rajesh M to All Attendees:
+Hi sir
+from Rajesh M to All Attendees:
+Project Submitted
+from Shilpipauranik to All Participants:
+Hey, can anyone help with below error
+from Shilpipauranik to All Participants:
+COPY failed: stat /var/lib/docker/tmp/docker-builder192112450/package.json: no such file or directory
+
+from Nitesh.vit2011 to All Participants:
+M done with my prject
+from Arun D to All Participants:
+@Shilpi at what stage this error got triggered?
+from Shilpipauranik to All Participants:
+After docker build command
+from Shilpipauranik to All Participants:
+docker build -t myangularapp.
+from Swathi Balasubramanian to All Participants:
+@shilpi - for which line did you get this error
+from Shilpipauranik to All Participants:
+COPY package.json I believe
+from Somyashree Padhi to All Participants:
+copy exact error here shilpi .. it tells us what is missing
+from Shilpipauranik to All Participants:
+error says copy failed no such directory existing
+from Bkarim60 to All Participants:
+@Anuaj - I have submiited the project. Thanks for your help and support
+from Bkarim60 to All Participants:
+*Anuj
+from Somyashree Padhi to All Participants:
+did you enter inside angular app
+from Bkarim60 to All Participants:
+apologies
+from Shilpipauranik to All Participants:
+Step 5/9 : COPY package.json /usr/src/app/package.json
+COPY failed: stat /var/lib/docker/tmp/docker-builder192112450/package.json: no such file or directory
+
+from Reshma Umapathy to All Participants:
+Anuj... Submitted the project
+from Bhagavankrishna.b to All Participants:
+@Shilpi, you need to run the command vi dockerfile
+from Shilpipauranik to All Participants:
+did and verfied the content
+from Shilpipauranik to All Participants:
+its all proper
+from Bhagavankrishna.b to All Participants:
+then copy paste the whole content into it 
+from Arun D to All Participants:
+Ah yes.. We need to add the content inside the docker file @Shilpi
+from Bhagavankrishna.b to All Participants:
+check at the beginning
+from Reshma Umapathy to All Participants:
+Yeah.. add all the lines in dockerfile
+from Harshu_l to All Participants:
+Hi Anuj , Uploaded the document on the simplilearn portal 
+from Shilpipauranik to All Participants:
+I do add the content 
+from Bhagavankrishna.b to All Participants:
+if there are any characters missing while copy paste
+from Bhagavankrishna.b to All Participants:
+it happens
+from Swathi Balasubramanian to All Participants:
+did you give space before . in the build command
+from Bhagavankrishna.b to All Participants:
+yes swati
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+guys, how to exit the execution? is there any specific cmd?
+from Dinesh.unna to All Participants:
+sir i stuck at ng new myAng‐app what i do
+from Bhagavankrishna.b to All Participants:
+@sweta, nothing to do, just follow the next steps
+from Dinesh.unna to All Participants:
+my a-ng app come how to exit
+from Maramreddy.k to All Participants:
+done guys
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+okay
+from Maramreddy.k to All Participants:
+Thank u 
+from Arun D to All Participants:
+Yes was what about to say that @Sweta.. Follow the next steps
+from Dinesh.unna to All Participants:
+please tell me
+from Bhagavankrishna.b to All Participants:
+@Dinesh, Esc and wq!
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+Thanks!
+from Dinesh.unna to All Participants:
+npm install ‐g @angular/cli type same worote
+from Dinesh.unna to All Participants:
+any thing i chnage
+from Somyashree Padhi to All Participants:
+https://somyashreepadhi.centralus.cloudapp.azure.com:4200
+from vidhu108@gmail.com to All Participants:
+Someone can help me how to unlock chrome!! which pw we need to give?
+from Somyashree Padhi to All Participants:
+This should give the URL right ?
+from Srk.guess to All Participants:
+please use in your vm
+from Swathi Balasubramanian to All Participants:
+just hit cancel and go
+from Arun D to All Participants:
+No need to unlock just cancel it
+from RupalJohari to All Participants:
+i am stuck after this vi  Dockerfile, can anybody help
+from Swathi Balasubramanian to All Participants:
+no need for any password
+from Bhagavankrishna.b to All Participants:
+@Vidhu, you don't need chrome, any browser will do
+from Dinesh.unna to All Participants:
+https://dineshunnagmail.centralus.cloudapp.azure.com:42001/guacamole/#/client/REVGQVVMVABjAGRlZmF1bHQ=?username=guacadmin&password=guacadmin
+from Srk.guess to All Participants:
+there is a globe symbol below
+from Bkarim60 to All Participants:
+@Rupa
+from Arun D to All Participants:
+@Dinesh what is the error that you got?
+from Bhagavankrishna.b to All Participants:
+just click on the browser icon next to command line in your VM
+from Srk.guess to All Participants:
+click and type localhost:4200
+from Dinesh.unna to All Participants:
+please check my url
+from Dinesh.unna to All Participants:
+i stucked
+from Arindam.mallik to All Participants:
+Anuj, project submitted . "Your project is under assessment. You will hear from us soon."
+from Somyashree Padhi to All Participants:
+I am not able to launch in the VM
+from Kanupriyarchourey to All Participants:
+node jS install ..I am getting Permission denied issue
+from Arun D to All Participants:
+@Somya should be a session problem..Close and try logging again
+from Reshma Umapathy to All Participants:
+sudo su -
+from Bkarim60 to All Participants:
+'Rupa - in the same directory where you created the Dockerfile run the following command
+from vidhu108@gmail.com to All Participants:
+thanks everyone!
+from RupalJohari to All Participants:
+@ok bhagwan
+from Bkarim60 to All Participants:
+>docker build -t myangularapp .
+
+from Dinesh.unna to All Participants:
+my ang app 1st time saw didnit uner stand
+from Bkarim60 to All Participants:
+ensure '.' is there at the end
+from Jayaram  to All Participants:
+Even I am unable to launch lab
+from vidhu108@gmail.com to All Participants:
+@dinesh you should use the url as localhost:4200 i guess
+from Bhagavankrishna.b to All Participants:
+@Kanupirya, are you running as root user?
+from Dinesh.unna to All Participants:
+where i use
+from Somyashree Padhi to All Participants:
+@Jayaram click onthe globe icon it will take sometime but wilbring up the browser
+from Dinesh.unna to All Participants:
+npm install ‐g @angular/cli here
+from Arun D to All Participants:
+Can you type the error that you got @Dinesh?
+from Kanupriyarchourey to All Participants:
+yes 
+from Dinesh.unna to All Participants:
+@ vindu
+from vishnu to All Participants:
+Anuj , i have submitted the Angular deplyment in docker container project .
+from Kanupriyarchourey to All Participants:
+do ineed to change the root user part
+from Kanupriyarchourey to All Participants:
+?
+from vidhu108@gmail.com to All Participants:
+@Dinesh nope sry.. wat error you are getting in that step? why you are asking for URL here?
+from Dinesh.unna to All Participants:
+https://dineshunnagmail.centralus.cloudapp.azure.com:42001/guacamole/#/client/REVGQVVMVABjAGRlZmF1bHQ=?username=guacadmin&password=guacadmin
+from Dinesh.unna to All Participants:
+i did not uderstand
+from Somyashree Padhi to All Participants:
+Done teh angular app
+from Dinesh.unna to All Participants:
+pleae help me
+from vidhu108@gmail.com to All Participants:
+can you paste exact error?
+from Rajesh M to All Attendees:
+dinesh what is the issue ?
+from Bhagavankrishna.b to All Participants:
+@Dinesh, if you are running the image successfully, then just open browser in your VM
+from Reshma Umapathy to All Participants:
+What error are u getting @dinesh
+from Srk.guess to All Participants:
+@Dinesh : 
+from Somyashree Padhi to All Participants:
+Best group .. thanks a lot for the help guys !! lets try to get everyone's project completed
+from Arun D to All Participants:
+@Dinesh sorry we cant get into the system with the URL please share the error message?
+from Srk.guess to All Participants:
+we cannot get into your system
+from Bhagavankrishna.b to All Participants:
+@Kanupriya, please confirm you are using root user or not
+from Bhagavankrishna.b to All Participants:
+then you don't get persmission error for running angular
+from Dinesh.unna to All Participants:
+not sure the connecction is terminating
+from Dinesh.unna to All Participants:
+is anyone using my link? i am not able to access
+from Bhagavankrishna.b to All Participants:
+@Dinesh, are you still trying to access it from outside?
+from Arun D to All Participants:
+@Dinesh alright.. Try logging again and give the exact error message.. We will try to help and sort out
+from Reshma Umapathy to All Participants:
+In which step u are facing the issue @dinesh?
+from Swathi Balasubramanian to All Participants:
+@Dinesh - didnt understand what error you are getting. I tried your link it just hangs
+from Dinesh.unna to All Participants:
+step: ng new myAng-app
+from Bhagavankrishna.b to All Participants:
+it does not work, you have to open browser in your VM itself
+from Dinesh.unna to All Participants:
+i installed myAng app
+from Dinesh.unna to All Participants:
+opened it
+from Dinesh.unna to All Participants:
+what next? not sure
+from Bhagavankrishna.b to All Participants:
+you need to go inside the folder
+from Arun D to All Participants:
+Go to Docker file
+from Srk.guess to All Participants:
+cd 
+from Arun D to All Participants:
+And paste the contents
+from Bhagavankrishna.b to All Participants:
+cd myAng-app
+from Bhagavankrishna.b to All Participants:
+did you do that step?
+from Reshma Umapathy to All Participants:
+Once the angualar app is installed go into the app folder 
+from Dinesh.unna to All Participants:
+no
+from Srk.guess to All Participants:
+change directory is important
+from Arun D to All Participants:
+cd is important
+from Arun D to All Participants:
+Please do that step and naviagate to dockerfile @Dinesh
+from Dinesh.unna to All Participants:
+ok let my try connecting to my session
+from Srk.guess to All Participants:
+ok
+from Bhagavankrishna.b to All Participants:
+don't miss any steps in the document
+from Reshma Umapathy to All Participants:
+cd myAng-app
+from Srikarnelly to All Participants:
+do i need to upload entire document in all 4 places?
+from muditvajpayee to All Participants:
+yes
+from Reshma Umapathy to All Participants:
+Yeah! Same file can be uploaded
+from Somyashree Padhi to All Participants:
+yes
+from Srk.guess to All Participants:
+yes you can . presentation or word file
+from Somyashree Padhi to All Participants:
+@Anuj thanks for detailed steps .. very very helpful also thanks for sessions .. learning was fun with the handson session
+from Dinesh.unna to All Participants:
+guys I'm littl confused, i opened myAng-app(ng myAng-app)
+from Dinesh.unna to All Participants:
+next exit and cd myAng-app? 
+from Anuj Sharma to All Participants:
+https://www.surveymonkey.com/r/Online_Classroom_Feedback\
+from Anuj Sharma to All Participants:
+https://www.surveymonkey.com/r/Online_Classroom_Feedback
+from Nirajpatilpune to All Participants:
+Hi anuj, which doc to refer for project 1 ?
+from Srikarnelly to All Participants:
+unable to submit the project
+from Goalhits to All Participants:
+what to put in sourcecode?
+from Swathi Balasubramanian to All Participants:
+Anuj - thank you for all your support and patience
+from Goalhits to All Participants:
+is it zip file of angular code?
+from Srikarnelly to All Participants:
+it is showing as invalid submission
+from vidhu108@gmail.com to All Participants:
+@ dinesh - i hope no need to use exit! .. others please confirm
+from vishnu to All Participants:
+i am trying with the another project ..hope you will be there till 1 AM right
+from Nitesh.vit2011 to All Participants:
+It was Good
+from koteeswaran kandasamy to All Participants:
+it is very good and thanks for Anuj patience
+from Bkarim60 to All Participants:
+Brilliant as usual
+from Swathi Balasubramanian to All Participants:
+it was good. and cleared some concepts.
+from Srk.guess to All Participants:
+It was really nice.
+from Arindam.mallik to All Participants:
+It was good
+from Srk.guess to All Participants:
+Thank you Anuj. 
+from vidhu108@gmail.com to All Participants:
+Its really good.. Thanks Anuj
+from Bhagavankrishna.b to All Participants:
+it was good
+from Rajesh M to All Attendees:
+Excellent 
+from Kanupriyarchourey to All Participants:
+Batch was really good,but only thing we should get some time for project as many people are new to the technology
+from Somyashree Padhi to All Participants:
+This was an amzing batch .. the batchmates were very helpful and Anuj was flawless in all the sessions
+from Swathi Balasubramanian to All Participants:
+Kudos to Anuj
+from Maramreddy.k to All Participants:
+It was very good and helpful.. 
+from Shivarajbe1 to All Participants:
+It was good nice
+from Dinesh.unna to All Participants:
+hey anuj i am stuck! can you please help me 
+from Ganapathy Sankar S to All Participants:
+Excellent Session
+from Srikarnelly to All Participants:
+Help me with submitting the project
+from muditvajpayee to All Participants:
+It was really informative and thanks Anuj for wonderful session
+from Soni.Rashmita to All Participants:
+Anuj is an excellent trainer 
+from Simplilearn Get Certified Get Ahead to All Participants:
+https://tinyurl.com/r8d692l
+from Bkarim60 to All Participants:
+Thanks Anuj and everyone . And all the best
+from muditvajpayee to All Participants:
+I am also done with the assignment
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+It was really good and helpful
+from Reshma Umapathy to All Participants:
+Yeah! It was soo good and soo interactive. Like every doubts were cleared.. Thanks anuj for the wonderful sessions
+from Kanupriyarchourey to All Participants:
+   now i am able to install the nodejs 
+from Kanupriyarchourey to All Participants:
+I have changed the command to sudo apt-get install -y nodejs if anyone facing the same issue
+from Arindam.mallik to All Participants:
+Anuj, can you please share your email so that if any questions we can connect with you?
+from Bkarim60 to All Participants:
+I will leave a review on trustpilot a bit later today if that is ok pls
+from Maramreddy.k to All Participants:
+Thank you Anuj.. 
+from Srikarnelly to All Participants:
+help me with submitting project
+from Nitesh.vit2011 to All Participants:
+are these all Git URl will be active ??
+from Rajesh M to All Participants:
+Sir i have submitted we need to upload Writeup , Screenshots , Source Code ? same document right ?
+from Nitesh.vit2011 to All Participants:
+for longer duration
+from Goalhits to All Participants:
+Ashiq/Anju can you verify whether my project is submitted successfully?
+from Srikarnelly to All Participants:
+i tried and it is throwing error as invalid submission
+from vishnu to All Participants:
+what about the exam ?
+from Goalhits to All Participants:
+ok cool
+from vishnu to All Participants:
+i mean cretiria etc 
+from Arpitajain013 to All Participants:
+you will get this msg
+from Arpitajain013 to All Participants:
+Your project is under assessment. You will hear from us soon.
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+what about the test??
+from Dinesh.unna to All Participants:
+I'm not able to proceed further can anyone help
+from sweta.gupta@dieboldnixdorf.com  to All Participants:
+is it mandatory to complete that?
+from vishnu to All Participants:
+Ashis ..cud you please tell us about the examp 
+from muditvajpayee to All Participants:
+yes dinesh
+from Dinesh.unna to All Participants:
+i am stuck after installing node js and myang app
+from Arpitajain013 to All Participants:
+no sweta
+from Arun D to All Participants:
+@vishnu/sweta.. For unlocking certificate we need to complete self learning 85% or online classess 8 classes + 1 project.. Thats the criteria
+from Nirajpatilpune to All Participants:
+we need to only submit one project and only attend all live classes then our certificate will be unlocked... just talked with support team, so now once our project is reviewd by simple learn team we will be able to get our certificate
+from Srk.guess to All Participants:
+yes
+from Arpitajain013 to All Participants:
+Thank you Anuj. :)
+from Nitesh.vit2011 to All Participants:
+Do we need to upload same doc in all three section for project 2
+from Patel.Manjeet to All Participants:
+What do I need to upload in source code?
+from Nirajpatilpune to All Participants:
+but my question is what name will be displayed on certificate, if one has given random name then ?
+from Goalhits to All Participants:
+thanks Anuj
+from Patel.Manjeet to All Participants:
+Same as write up?
