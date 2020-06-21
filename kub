@@ -2,3 +2,10 @@ kubectl get svc
 kubectl run kubernetes-nginx --image=nginx --port=80
 kubectl expose deployment/kubernetes-nginx --port=80 --target-port=80 --type=NodePort
 kubectl get svc
+
+kubectl get pods
+kubectl scale deployments/kubernetes-bootcamp --replicas=2
+kubectl get pods
+kubectl get deployments
+curl localhost:30167
+
